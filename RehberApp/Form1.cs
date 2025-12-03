@@ -94,5 +94,10 @@ namespace RehberApp
             MessageBox.Show("Kişi Rehberde Güncellendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
             listele();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            temizle();
+        }
     }
 }
